@@ -15,7 +15,7 @@
 [管理员权限](#adminPermission)  
 [游戏规则](#gameRules)  
 [基础设施](#infrastructure)  
-[投诉和建议](#contactUs)
+[联系方式](#contactUs)
 
 <a name="adminPermission"></a>
 
