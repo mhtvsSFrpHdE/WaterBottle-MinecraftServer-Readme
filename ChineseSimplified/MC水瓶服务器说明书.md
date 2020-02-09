@@ -18,6 +18,7 @@
 [管理员权限](#adminPermission)  
 [游戏规则](#gameRules)  
 [基础设施](#infrastructure)  
+[常见问题](#fAQ)  
 [联系方式](#contactUs)
 
 <a name="adminPermission"></a>
@@ -188,6 +189,15 @@
 将连续显示三个，在多个数字都小于17时建议报告这个情况。
 
 [返回当前分类目录](#infrastructureCatalog)
+
+[返回总目录](#catalog)
+
+<a name="fAQ"></a>
+
+## 常见问题
+**不能用漏斗或其他机器从箱子和其他容器中取出物品**  
+这是箱子锁LWC的防止物品被非玩家取出而不会被记录导致的现象，  
+需要去除目标物体上的保护，具体[查看LWC的说明](#lWCRemove)。
 
 [返回总目录](#catalog)
 
