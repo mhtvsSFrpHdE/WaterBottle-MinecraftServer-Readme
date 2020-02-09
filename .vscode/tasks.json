@@ -6,7 +6,7 @@
         {
             "label": "Compile Markdown",
             "type": "shell",
-            "command": "markdown-it MC水瓶服务器说明书.md -o MC水瓶服务器说明书.html",
+            "command": "markdown-it ChineseSimplified/MC水瓶服务器说明书.md -o ChineseSimplified/MC水瓶服务器说明书.html",
             "group": "build"
         }
     ]
