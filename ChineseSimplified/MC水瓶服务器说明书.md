@@ -64,7 +64,7 @@
 
 <a name="infrastructureCatalog"></a>
 
-### 基础设置-目录
+### 基础设施-目录
 [箱子锁](#lWC)  
 [交通](#dT)  
 [金币](#coin)  
