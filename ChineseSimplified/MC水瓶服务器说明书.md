@@ -42,7 +42,9 @@
 一个新的规则被添加后，不对添加前的违规行为进行处理而只对之后的事件有效。  
 这里仅列出目前为止必须了解的注意事项。
 
-**以下指令对所有玩家开放**：
+<a name="freeAccessServerHistory"></a>
+
+### 服务器历史记录对所有玩家开放：
 
 <a name="coreProtectInspector"></a>
 
