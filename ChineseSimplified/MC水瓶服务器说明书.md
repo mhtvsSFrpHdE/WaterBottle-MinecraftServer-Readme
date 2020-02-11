@@ -104,6 +104,7 @@
 [传送](#teleport)  
 [呼叫](#notify)  
 [皮肤](#skin)  
+[彩色牌子](#coloredSign)  
 [服务器状态](#serverStatus)
 
 [返回总目录](#catalog)
@@ -234,6 +235,15 @@
 打开一个菜单列出服务器上保存的所有皮肤和可以选择其中之一。  
 因此可联系管理员和直接上传皮肤到服务器上，稍后就可进行选择。  
 在服务器上由管理员直接将某皮肤设置到具体玩家后需要退出服务器回到主菜单再加入才能有效。
+
+[返回当前分类目录](#infrastructureCatalog)
+
+<a name="coloredSign"></a>
+
+### **彩色牌子**
+在牌子上可以使用Minecraft颜色或格式代码。  
+在[Minecraft百科](https://minecraft-zh.gamepedia.com/%E6%A0%B7%E5%BC%8F%E4%BB%A3%E7%A0%81)上可以找到各种颜色和样式的示范。  
+但在游戏内无法输入双S符号，因此以&符号代替双S符号进行牌子编辑。
 
 [返回当前分类目录](#infrastructureCatalog)
 
