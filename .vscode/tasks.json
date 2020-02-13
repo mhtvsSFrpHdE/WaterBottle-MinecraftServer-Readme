@@ -4,9 +4,15 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Compile Markdown",
+            "label": "Compile player",
             "type": "shell",
             "command": "markdown-it ChineseSimplified/MC水瓶服务器说明书.md -o ChineseSimplified/MC水瓶服务器说明书.html",
+            "group": "build"
+        },
+        {
+            "label": "Compile admin",
+            "type": "shell",
+            "command": "markdown-it ChineseSimplified/MC水瓶服务器管理员注意事项.md -o ChineseSimplified/MC水瓶服务器管理员注意事项.html",
             "group": "build"
         }
     ]
