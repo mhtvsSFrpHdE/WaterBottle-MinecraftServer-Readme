@@ -67,7 +67,7 @@
 
 <a name="freeAccessServerHistory"></a>
 
-### 服务器历史记录对所有玩家开放：
+### 服务器历史记录对所有玩家开放
 
 <a name="coreProtectInspector"></a>
 
