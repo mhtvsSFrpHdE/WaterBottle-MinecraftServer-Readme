@@ -9,7 +9,8 @@
 # MC水瓶服务器管理员注意事项 2020/02/13 a
 
 ## 目录
-[权限](#permission)
+[权限](#permission)  
+[背包](#inventory)
 
 <a name="permission"></a>
 
@@ -36,6 +37,13 @@
 - ZHorse\config.yml
 
 [返回分类目录](#permission)
+
+[返回总目录](#catalog)
+
+<a name="inventory"></a>
+
+## 背包
+使用[Inventory Restore 2](https://www.spigotmc.org/resources/inventory-restore-remastered.22027/).
 
 [返回总目录](#catalog)
 
