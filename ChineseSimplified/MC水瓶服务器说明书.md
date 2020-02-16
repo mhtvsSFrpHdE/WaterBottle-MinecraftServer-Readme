@@ -18,6 +18,7 @@
 [管理员权限](#adminPermission)  
 [密码安全](#passwordSecurity)  
 [游戏规则](#gameRules)  
+**[玩法和注意事项](#howToPlay)**  
 [基础设施](#infrastructure)  
 [常见问题](#fAQ)  
 [联系方式](#contactUs)
@@ -88,6 +89,13 @@
 
 `/co lookup`  
 高级调查，查阅CoreProtect服务器插件的使用说明来了解这一点。
+
+[返回总目录](#catalog)
+
+<a name="howToPlay"></a>
+
+## 玩法和注意事项
+1. **死亡时物品和等级会掉落**，和单人游戏一样。
 
 [返回总目录](#catalog)
 
