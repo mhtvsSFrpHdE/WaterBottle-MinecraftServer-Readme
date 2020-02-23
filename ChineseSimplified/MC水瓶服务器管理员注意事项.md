@@ -173,7 +173,9 @@ Spigot和Bukkit一样具有下载插件的提示。
 <a name="inventory"></a>
 
 ## 背包
-使用[Inventory Restore 2](https://www.spigotmc.org/resources/inventory-restore-remastered.22027/).
+恢复意外死亡的玩家背包，使用[Inventory Restore 2](https://www.spigotmc.org/resources/inventory-restore-remastered.22027/)。  
+调查玩家的背包以及末影箱，使用[OpenInv](https://dev.bukkit.org/projects/openinv)。  
+调查临时创造模式玩家是否作弊，使用[Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)。
 
 [返回总目录](#catalog)
 
