@@ -108,7 +108,7 @@
 ### 基础设施-目录
 [箱子锁](#lWC)  
 [马锁](#zHorse)  
-[交通](#dT)  
+[交通](#traffic)  
 [金币](#coin)  
 [传送](#teleport)  
 [呼叫](#notify)  
@@ -184,13 +184,13 @@
 
 [返回当前分类目录](#infrastructureCatalog)
 
-<a name="dT"></a>
+<a name="traffic"></a>
 
-### **DT**
+### **交通**
 是替代矿车的移动方式，通过右键车站牌子以前往目标地点。  
 然而，部分目标地点距离此处的距离可能令人发指。
 
-<a name="dTDismount"></a>
+<a name="trafficDtDismount"></a>
 
 `/dt dismount`  
 在前往目标地点的过程中使用可取消并返回出发地点。
