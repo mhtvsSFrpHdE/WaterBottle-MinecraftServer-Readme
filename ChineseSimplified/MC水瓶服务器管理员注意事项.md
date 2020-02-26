@@ -190,6 +190,8 @@ Spigot和Bukkit一样具有下载插件的提示。
 
 [返回总目录](#catalog)
 
+<a name="multiWorld">
+
 ## 多世界
 当创建一个世界，随机传送插件总是会把玩家传送到一个固定位置。  
 到RandomTeleport\Worlds:下添加世界名和传送范围以便解决。
