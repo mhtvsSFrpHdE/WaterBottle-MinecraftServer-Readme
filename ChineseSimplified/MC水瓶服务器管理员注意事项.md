@@ -15,7 +15,7 @@
 [学习路线](#learningPath)  
 [常见指令](#commonCommand)  
 [权限](#permission)  
-[背包](#inventory)
+[背包](#inventory)  
 [多世界](#multiWorld)
 
 <a name="beforeEverything"></a>
