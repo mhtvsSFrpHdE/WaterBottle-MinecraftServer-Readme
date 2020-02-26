@@ -100,7 +100,7 @@
 
 [返回总目录](#catalog)
 
-<a name="howToPlay"></a>
+<a name="howToPlaySafe"></a>
 
 ## 玩法和注意事项
 1. **死亡时物品和等级会掉落**
