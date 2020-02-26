@@ -2,11 +2,11 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>MC水瓶服务器管理员注意事项</title>
+    <title>管理员手册_MC水瓶</title>
   </head>
   <body>
 
-# MC水瓶服务器管理员注意事项 2020/02/27 a
+# 管理员手册_MC水瓶 2020/02/27 a
 
 <a name="catalog"></a>
 

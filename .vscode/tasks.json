@@ -6,13 +6,13 @@
         {
             "label": "Compile player",
             "type": "shell",
-            "command": "markdown-it ChineseSimplified/MC水瓶服务器说明书.md -o ChineseSimplified/MC水瓶服务器说明书.html",
+            "command": "markdown-it ChineseSimplified/服务器说明书_MC水瓶.md -o ChineseSimplified/服务器说明书_MC水瓶.html",
             "group": "build"
         },
         {
             "label": "Compile admin",
             "type": "shell",
-            "command": "markdown-it ChineseSimplified/MC水瓶服务器管理员注意事项.md -o ChineseSimplified/MC水瓶服务器管理员注意事项.html",
+            "command": "markdown-it ChineseSimplified/管理员手册_MC水瓶.md -o ChineseSimplified/管理员手册_MC水瓶.html",
             "group": "build"
         }
     ]
