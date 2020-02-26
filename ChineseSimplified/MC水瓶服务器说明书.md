@@ -18,7 +18,7 @@
 [管理员权限](#adminPermission)  
 [密码安全](#passwordSecurity)  
 [游戏规则](#gameRules)  
-**[玩法和注意事项](#howToPlay)**  
+**[玩法和重要提醒](#howToPlaySafe)**  
 [基础设施](#infrastructure)  
 [常见问题](#fAQ)  
 [联系方式](#contactUs)
