@@ -16,6 +16,7 @@
 [常见指令](#commonCommand)  
 [权限](#permission)  
 [背包](#inventory)
+[多世界](#multiWorld)
 
 <a name="beforeEverything"></a>
 
@@ -186,6 +187,12 @@ Spigot和Bukkit一样具有下载插件的提示。
 恢复意外死亡的玩家背包，使用[Inventory Restore 2](https://www.spigotmc.org/resources/inventory-restore-remastered.22027/)。  
 调查玩家的背包以及末影箱，使用[OpenInv](https://dev.bukkit.org/projects/openinv)。  
 调查临时创造模式玩家是否作弊，使用[Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)。
+
+[返回总目录](#catalog)
+
+## 多世界
+当创建一个世界，随机传送插件总是会把玩家传送到一个固定位置。  
+到RandomTeleport\Worlds:下添加世界名和传送范围以便解决。
 
 [返回总目录](#catalog)
 
