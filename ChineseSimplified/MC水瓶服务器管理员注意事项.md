@@ -13,6 +13,7 @@
 ## 目录
 [在开始之前](#beforeEverything)  
 [学习路线](#learningPath)  
+[常见指令](#commonCommand)  
 [权限](#permission)  
 [背包](#inventory)
 
@@ -139,6 +140,15 @@ Spigot和Bukkit一样具有下载插件的提示。
 有关于“到底应该怎么修改”，应该亲自去查阅每个插件或Spigot、Bukkit本身的说明。
 
 [返回分类目录](#learningPathCatalog)
+
+[返回总目录](#catalog)
+
+<a name="commonCommand"></a>
+
+## 常见指令
+
+`pex user 玩家名 group remove trialMessage`  
+去除玩家的垃圾短信提醒。
 
 [返回总目录](#catalog)
 
