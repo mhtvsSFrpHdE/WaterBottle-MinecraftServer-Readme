@@ -123,7 +123,7 @@
 [箱子锁](#lWC)  
 [马锁](#zHorse)  
 [交通](#traffic)  
-[金币](#coin)  
+[交易](#trade)  
 [传送](#teleport)  
 [多世界](#multiWorld)  
 [呼叫](#notify)  
@@ -217,35 +217,35 @@
 
 [返回当前分类目录](#infrastructureCatalog)
 
-<a name="coin"></a>
+<a name="trade"></a>
 
-### **金币**
 是和系统商店有关，然而稍有不同。  
 这是设计为以10的价格收购一个铁矿石，然后以10的价格出售一个铁矿石。  
 除此之外没有提供任何交易组合。
+### **交易**
 
-<a name="coinShop"></a>
+<a name="tradeShop"></a>
 
 `/shop`  
 打开系统商店菜单，点击小麦图标进行出售，点击钻石图标进行购买。  
 在头像处可查看余额。
 
-<a name="coinSellHand"></a>
+<a name="tradeSellHand"></a>
 
 `/sell hand`  
 将手上持有的所有物品出售，目前只能出售铁矿石。
 
-<a name="coinPay"></a>
+<a name="tradePay"></a>
 
 `/pay 玩家名 数字`  
 向某人转账，当时生效，不支持撤回，仅支持向在线玩家转账。
 
-<a name="coinTrade"></a>
+<a name="tradeHehView"></a>
 
 `/trade 玩家名`  
 带有保证的交换物品和金币，能够一定程度上防止通过扔物品到地上和`/pay`的欺骗行为。
 
-<a name="coinTradeAccept"></a>
+<a name="tradeFaceToFaceAccept"></a>
 
 `/trade accept`  
 同意进行带有保证的交换物品和金币。
