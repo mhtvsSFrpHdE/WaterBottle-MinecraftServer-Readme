@@ -533,6 +533,14 @@
 <a name="contactUs"></a>
 
 ## 联系方式
+
+<a name="qqGroupChat"></a>
+
+QQ群是主要交流地点，例如发布更新、提建议和修改、互相联系等。  
+每次进入游戏后会发送QQ群号的广播。
+
+<a name="githubIssue"></a>
+
 由于Github发生的各种滥用服务的低素质行为如歧视、辱骂等，决定关闭Github issue。  
 这是因为Github issue没有为管理员提供删除issue功能，只能隐藏。
 
