@@ -406,7 +406,7 @@
 
 ### **彩色牌子**
 在牌子上可以使用Minecraft颜色或格式代码。  
-在[Minecraft百科](https://minecraft-zh.gamepedia.com/%E6%A0%B7%E5%BC%8F%E4%BB%A3%E7%A0%81)上可以找到各种颜色和样式的示范。  
+在<a href="https://minecraft-zh.gamepedia.com/%E6%A0%B7%E5%BC%8F%E4%BB%A3%E7%A0%81" target="_blank">Minecraft百科</a>上可以找到各种颜色和样式的示范。  
 但在游戏内无法输入双S符号，因此以&符号代替双S符号进行牌子编辑。
 
 [返回当前分类目录](#infrastructureCatalog)
