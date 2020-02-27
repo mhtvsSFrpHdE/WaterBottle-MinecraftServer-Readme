@@ -468,9 +468,7 @@
 
 [返回当前分类目录](#fAQCatalog)
 
-[返回当前分类目录](#fAQCatalog)
-
-<a name="hopperNotWorkWithChest"></a>
+<a name="afk"></a>
 
 ### 不能用/afk或挂机时不会自动提示“离开了”和进入无敌状态？
 此命令和挂机无敌并未设计成在服务器开启，  
@@ -513,7 +511,7 @@
 
 [返回当前分类目录](#fAQCatalog)
 
-<a name="afk"></a>
+<a name="notGrowing"></a>
 
 ### 再次上线时，我的农作物没生长？
 当一块区域没有玩家在线时，它可能不发生游戏内进度更新。  
