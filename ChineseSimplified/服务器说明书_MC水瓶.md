@@ -220,6 +220,7 @@
 <a name="trade"></a>
 
 ### **交易**
+和商店以及交易有关的指令。完整的介绍查看[这里](#economy)。
 
 <a name="tradeShop"></a>
 
