@@ -95,6 +95,11 @@ Spigot和Bukkit一样具有下载插件的提示。
 
 ## 常见指令
 
+<a name="commonCommandRegister"></a>
+
+`authme register 玩家名 密码`  
+为新玩家注册。
+
 <a name="commonCommandActivate"></a>
 
 `pex user 玩家名 group remove trialMessage`  
