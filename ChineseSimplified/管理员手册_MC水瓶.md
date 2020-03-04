@@ -14,6 +14,7 @@
 [学习路线](#learningPath)  
 [常见指令](#commonCommand)  
 [新手接待](#newReception)  
+[常见问题](#fAQ)  
 [权限](#permission)  
 [背包](#inventory)  
 [多世界](#multiWorld)
@@ -166,6 +167,24 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 这是为了防止一旦服务器被黑客攻击拿到密码本，
 就能用来猜测其他网站的密码导致盗号
 ```
+
+[返回总目录](#catalog)
+
+<a name="fAQ"></a>
+
+## 常见问题
+
+<a name="fAQCatalog"></a>
+
+### 常见问题-目录
+1. [怎么改密码？](#changePassword)
+
+[返回总目录](#catalog)
+
+### 怎么改密码？
+说明书里写了。
+
+[返回当前分类目录](#fAQCatalog)
 
 [返回总目录](#catalog)
 
