@@ -156,33 +156,42 @@
 <a name="lWC"></a>
 
 ### **LWC**
-是箱子锁，当一个箱子或重要物品被摆放时自动加锁以防止他人使用。
+是箱子锁，当一个箱子或重要物品被摆放时自动注册以防止他人破坏。  
+大部分物体自动注册成“**有锁的**”以防止其他人使用，  
+另一些不重要的会自动注册成“**共享的**”，这时其他人只能使用不能破坏。
+
+<a name="lWCPrivate"></a>
+
+`/cprivate`  
+使用指令后点击一个物体将自己登记为拥有者和状态为“有锁的”。  
+前提是此物体尚未注册LWC，见[去除LWC保护](#lWCRemove)。
+
+<a name="lWCPublic"></a>
+
+`/cpublic`  
+使用指令后点击一个物体将自己登记为拥有者和状态为“共享的”。  
+前提是此物体尚未注册LWC，见[去除LWC保护](#lWCRemove)。
+
+<a name="lWCModifyPlus"></a>
+
+`/cmodify 玩家名`  
+使用指令后点击一个物体允许特定的一个玩家使用。
+
+<a name="lWCModifySubtract"></a>
+
+`/cmodify -玩家名`  
+相同的指令，但在玩家名前添加半角减号，  
+点击一个物体不再允许特定的玩家使用。
+
+<a name="lWCRemove"></a>
+
+`/cremove`  
+使用指令后点击一个物体去除LWC保护，使所有人可使用的同时也能破坏和[成为拥有者](#lWCPrivate)。
 
 <a name="lWCInfo"></a>
 
 `/cinfo`  
 使用指令后点击一个物体查看目前的拥有者。
-
-<a name="lWCPrivate"></a>
-
-`/cprivate`  
-使用指令后点击一个物体将自己登记为拥有者，相当于放下箱子时的自动锁定。  
-一些不是容器的物体在放下时不会自动锁定。
-
-<a name="lWCModify"></a>
-
-`/cmodify 玩家名`  
-使用指令后点击一个物体允许特定的一个玩家使用。
-
-<a name="lWCPublic"></a>
-
-`/cpublic`  
-使用指令后点击一个物体使所有人可使用，但其他人不能破坏和[成为拥有者](#lWCPrivate)。
-
-<a name="lWCRemove"></a>
-
-`/cremove`  
-使用指令后点击一个物体去除保护，使所有人可使用的同时也能破坏和[成为拥有者](#lWCPrivate)。
 
 [返回当前分类目录](#infrastructureCatalog)
 
