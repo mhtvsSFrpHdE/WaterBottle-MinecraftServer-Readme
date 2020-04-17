@@ -17,8 +17,10 @@
 ## 目录
 [管理员权限](#adminPermission)  
 [密码安全](#passwordSecurity)  
-[游戏规则](#gameRules)  
-**[玩法和重要提醒](#howToPlaySafe)**  
+[游戏规则](#gameRules)
+
+<h1><a href="#howToPlaySafe">玩法和重要提醒（先看这里）</a></h1>
+
 [基础设施](#infrastructure)  
 [常见问题](#fAQ)  
 [联系方式](#contactUs)
@@ -59,6 +61,10 @@
 <a name="gameRules"></a>
 
 ## 游戏规则
+所有规则指向一个简单的目标：
+
+<h1>不要影响到其他人</h1>
+
 将根据玩家报告的各种事件随时更新禁止事项。  
 一个新的规则被添加后，不对添加前的违规行为进行处理而只对之后的事件有效。  
 这里仅列出目前为止必须了解的注意事项。  
