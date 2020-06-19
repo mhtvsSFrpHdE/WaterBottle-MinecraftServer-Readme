@@ -99,6 +99,11 @@ Spigot和Bukkit一样具有下载插件的提示。
 
 ## 常见指令
 
+<a name="commonCommandWhitelist"></a>
+
+`whitelist add 玩家名`  
+添加玩家到白名单
+
 <a name="commonCommandRegister"></a>
 
 `authme register 玩家名 密码`  
@@ -123,6 +128,7 @@ Spigot和Bukkit一样具有下载插件的提示。
 将以下指令保存为记事本以便快速复制：
 
 ```
+whitelist add 玩家名
 authme register 玩家名 密码
 pex user 玩家名 group remove trialMessage
 ```
@@ -151,9 +157,10 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 之后转发邮箱、游戏名、皮肤（如果有）、密码给群主。
 
 ### 步骤3:
+[添加玩家到白名单](#commonCommandWhitelist)之后，  
 用新玩家的游戏名**进入游戏一次**触发新玩家自动初始化**后**退出游戏，  
 然后将这个玩家名[从垃圾短信列表中删除](#commonCommandActivate)。  
-有时对方玩家已经在服务器中，那直接从列表中删除就好。
+有时对方玩家已经在服务器中导致管理员不能再进，那直接从列表中删除就好。
 
 ### 步骤4：
 复制以下内容给新玩家（把xxx换成刚刚注册的密码）：
