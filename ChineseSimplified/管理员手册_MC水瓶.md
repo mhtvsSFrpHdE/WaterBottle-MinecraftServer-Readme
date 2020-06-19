@@ -114,6 +114,13 @@ Spigot和Bukkit一样具有下载插件的提示。
 `pex user 玩家名 group remove trialMessage`  
 去除玩家的垃圾短信提醒。
 
+<a name="multiWorldPermission"></a>
+
+`multiverse.access.DigTheEnd`  
+`multiverse.access.Dig`  
+添加这些权限允许进入多世界的其中之一。  
+需要玩家提供资格证明后分别添加对应世界的权限而不是一下全加上。
+
 [返回总目录](#catalog)
 
 <a name="newReception"></a>
@@ -186,7 +193,8 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 <a name="fAQCatalog"></a>
 
 ### 常见问题-目录
-1. [怎么改密码？](#changePassword)
+1. [怎么改密码？](#changePassword)  
+1. [不能进去资源世界等多世界？](#multiWorld)
 
 [返回总目录](#catalog)
 
@@ -196,6 +204,10 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 说明书里写了。
 
 [返回当前分类目录](#fAQCatalog)
+
+### 不能进去资源世界等多世界？
+查看服务器说明书“车站”章节，  
+拥有一个车站和提供资格证明后管理员用[添加多世界权限](#multiWorldPermission)指令允许玩家进入。
 
 [返回总目录](#catalog)
 
