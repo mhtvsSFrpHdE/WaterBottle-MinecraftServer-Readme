@@ -293,8 +293,8 @@
 
 <a name="tradeFaceToFaceAccept"></a>
 
-`/trade accept`  
-同意进行带有保证的交换物品和铁矿石币。
+`/trade 玩家名`  
+或点击聊天框中颜色标记的命令，同意进行带有保证的交换物品和铁矿石币。
 
 [返回当前分类目录](#infrastructureCatalog)
 
