@@ -109,11 +109,6 @@ Spigot和Bukkit一样具有下载插件的提示。
 `authme register 玩家名 密码`  
 为新玩家注册。
 
-<a name="commonCommandActivate"></a>
-
-`pex user 玩家名 group remove trialMessage`  
-去除玩家的垃圾短信提醒。
-
 <a name="multiWorldPermission"></a>
 
 `multiverse.access.DigTheEnd`  
@@ -166,8 +161,6 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 ### 步骤3:
 [添加玩家到白名单](#commonCommandWhitelist)之后，  
 用新玩家的游戏名**进入游戏一次**触发新玩家自动初始化**后**退出游戏，  
-然后将这个玩家名[从垃圾短信列表中删除](#commonCommandActivate)。  
-有时对方玩家已经在服务器中导致管理员不能再进，那直接从列表中删除就好。
 
 ### 步骤4：
 复制以下内容给新玩家（把xxx换成刚刚注册的密码）：
