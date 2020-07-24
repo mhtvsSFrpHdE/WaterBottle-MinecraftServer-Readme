@@ -109,7 +109,7 @@ Spigot和Bukkit一样具有下载插件的提示。
 `authme register 玩家名 密码`  
 为新玩家注册。
 
-<a name="multiWorldPermission"></a>
+<a name="commonCommandMultiWorldPermission"></a>
 
 `multiverse.access.DigTheEnd`  
 `multiverse.access.Dig`  
