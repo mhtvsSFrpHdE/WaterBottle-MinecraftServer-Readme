@@ -12,7 +12,7 @@
         {
             "label": "Compile admin",
             "type": "shell",
-            "command": "markdown-it ChineseSimplified/管理员手册_MC水瓶.md -o ChineseSimplified/管理员手册_MC水瓶.html",
+            "command": "markdown-it ChineseSimplified/管理员常用资料_MC水瓶.md -o ChineseSimplified/管理员常用资料_MC水瓶.html",
             "group": "build"
         }
     ]
