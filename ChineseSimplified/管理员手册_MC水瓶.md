@@ -135,7 +135,6 @@ Spigot和Bukkit一样具有下载插件的提示。
 ```
 whitelist add 玩家名
 authme register 玩家名 密码
-pex user 玩家名 group remove trialMessage
 ```
 
 ### 步骤1:
