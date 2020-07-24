@@ -109,6 +109,51 @@ Spigot和Bukkit一样具有下载插件的提示。
 `authme register 玩家名 密码`  
 为新玩家注册。
 
+<a name="commonCommandUnregister"></a>
+
+`authme unregister 玩家名`  
+不再允许玩家登陆和在游戏内活动，和踢出具有同等效果。
+
+<a name="commonCommandAddUserPermission"></a>
+
+`lp user 玩家名 permission set 权限 true`  
+为玩家添加某项具体权限。
+
+<a name="commonCommandRemoveUserPermission"></a>
+
+`lp user 玩家名 permission unset 权限`  
+取消玩家某项具体权限。
+
+<a name="commonCommandResetUserGroup"></a>
+
+`lp user parent set default`  
+重设玩家权限组，临时权限组仍然需要手动去除。
+
+<a name="commonCommandAddUserGroup"></a>
+
+`lp user 玩家名 parent add 权限组名`  
+添加玩家到某个权限组。
+
+<a name="commonCommandRemoveUserGroup"></a>
+
+`lp user 玩家名 parent remove 权限组名`  
+不再使玩家属于某个权限组。
+
+<a name="commonCommandAddTempUserGroup"></a>
+
+`lp user 玩家名 parent addtemp 权限组名 时间`  
+临时添加玩家到某个权限组。  
+时间格式：  
+1秒 = 1s  
+1分 = 1m  
+1小时 = 1h  
+1天 = 1d
+
+<a name="commonCommandRemoveTempUserGroup"></a>
+
+`lp user 玩家名 parent removetemp 权限组名`  
+不再使玩家属于某个临时权限组。
+
 <a name="commonCommandMultiWorldPermission"></a>
 
 `multiverse.access.Dig`  
