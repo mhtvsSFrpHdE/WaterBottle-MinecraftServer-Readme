@@ -111,8 +111,9 @@ Spigot和Bukkit一样具有下载插件的提示。
 
 <a name="commonCommandMultiWorldPermission"></a>
 
-`multiverse.access.DigTheEnd`  
 `multiverse.access.Dig`  
+`multiverse.access.DigNether`  
+`multiverse.access.DigTheEnd`  
 添加这些权限允许进入多世界的其中之一。  
 需要玩家提供资格证明后分别添加对应世界的权限而不是一下全加上。
 
