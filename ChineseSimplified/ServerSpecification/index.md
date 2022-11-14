@@ -1,10 +1,8 @@
-<!DOCTYPE html>
-<html>
+
   <head>
     <meta charset="utf-8">
     <title>服务器说明书_MC水瓶</title>
   </head>
-  <body>
 
 # 服务器说明书_MC水瓶 2022/07/21 a
 
@@ -17,7 +15,7 @@
 ## 目录
 [管理员权限](#adminPermission)  
 [密码安全](#passwordSecurity)  
-[游戏规则](#gameRules)
+[游戏规则](#gameRules)  
 
 <h1><a href="#howToPlaySafe">玩法和重要提醒（先看这里）</a></h1>
 
@@ -640,6 +638,3 @@ QQ群是主要交流地点，例如发布更新、提建议和修改、互相联
 将投诉和建议发送到邮箱"ms10717015@outlook.com"或群内私信。
 
 [返回总目录](#catalog)
-
-  </body>
-</html>
