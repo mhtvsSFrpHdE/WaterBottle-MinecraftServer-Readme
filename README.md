@@ -3,9 +3,5 @@
 # WatterBottle-MinecraftServer-Readme
 Rules and guide.
 
-Accept community provided translate.  
-Use Visual Studio Code and npm to build markdown to html, see:  
-https://code.visualstudio.com/docs/languages/markdown
-
-About Visual Studio Code build task:  
-https://code.visualstudio.com/docs/editor/tasks
+## Compile to HTML
+You only need to change the Markdown file. When you commit a change, Github Actions detects it and automatically compiles it. If the build is successful, go to \<your-Github-username\>.github.io/WaterBottle-MinecraftServer-Readme
