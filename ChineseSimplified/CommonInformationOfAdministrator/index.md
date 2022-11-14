@@ -1,12 +1,10 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>管理员常用资料_MC水瓶</title>
-  </head>
-  <body>
+---
+title: 管理员常用资料_MC水瓶
+---
 
-# 管理员常用资料_MC水瓶 2020/07/25 a
+###### 语义化版本号 2.0.0
+
+# 管理员常用资料_MC水瓶
 
 <a name="catalog"></a>
 
@@ -306,6 +304,3 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 到RandomTeleport\Worlds:下添加世界名和传送范围以便解决。
 
 [返回总目录](#catalog)
-
-  </body>
-</html>
