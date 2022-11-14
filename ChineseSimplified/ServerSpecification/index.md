@@ -1,8 +1,6 @@
-
-  <head>
-    <meta charset="utf-8">
-    <title>服务器说明书_MC水瓶</title>
-  </head>
+---
+title: 服务器说明书_MC水瓶
+---
 
 # 服务器说明书_MC水瓶 2022/07/21 a
 
