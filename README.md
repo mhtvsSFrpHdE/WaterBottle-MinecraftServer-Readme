@@ -3,7 +3,6 @@
 # WatterBottle-MinecraftServer-Readme
 Rules and guide.
 
-Accept community provided translate.  
 Use Visual Studio Code and npm to build markdown to html, see:  
 https://code.visualstudio.com/docs/languages/markdown
 
