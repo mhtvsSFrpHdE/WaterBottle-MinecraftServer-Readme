@@ -6,7 +6,7 @@
   </head>
   <body>
 
-# 管理员常用资料_MC水瓶 2020/07/25 a
+# 管理员常用资料_MC水瓶 2024/09/14 a
 
 <a name="catalog"></a>
 
@@ -14,32 +14,16 @@
 [学习路线](#learningPath)  
 [常见指令](#commonCommand)  
 [新手接待](#newReception)  
-[常见问题](#fAQ)  
-[权限](#permission)  
-[背包](#inventory)  
-[多世界](#multiWorld)
+[常见问题](#fAQ)
 
 <a name="learningPath"></a>
 
 ## 学习路线
-有许多工具加入到这个过程中来以便提高效率，有一件事必须注意：  
-所有这些都具有一个前提是要会英语，  
-或至少有了解英文内容中的信息，和把自己所想写回英文的办法。  
-无需担心关于不会的问题，现在就开始学也来得及，  
-你不需要学习所有的英语就可以完成帮忙。  
-目前，最大的电脑技术圈子使用英语，  
-这意味着一个德国的开发者能用英语编写软件，  
-然后阅读和处理印度用户用英语写的错误报告，  
-为了交流，人不用学全世界所有语言而只要其中之一。  
-我们是服务器软件的中国用户，而我们还是要写英语回去报告错误。  
-同时，这些服务器软件的使用方法也基本都是用英语写成。  
-在进行“开服”的过程中其实并没有什么秘密，但它们都是用英语写成的。
 
 <a name="learningPathCatalog"></a>
 
 [Git和Github](#gitAndGithub)  
 [SpigotMC](#spigotMc)  
-[Bukkit](#bukkit)  
 [实际应用](#howToUse)
 
 [返回总目录](#catalog)
@@ -64,23 +48,11 @@
 <a name="spigotMc"></a>
 
 ### SpigotMC
-其中一个高性能Minecraft修改版服务器软件的[网站](https://www.spigotmc.org/)。  
+其中一个Minecraft修改版服务器软件的[网站](https://www.spigotmc.org/)。  
 在网站上有下载Spigot服务器软件本身的方法和一个分享服务器功能的区域，一般叫插件下载。  
 一个典型的插件在[这里](https://www.spigotmc.org/resources/coreprotect.8631/)，阅读说明便可找到插件的下载和如何使用。
 
 [返回分类目录](#learningPathCatalog)
-
-<a name="bukkit"></a>
-
-### Bukkit
-吃水不忘挖井人，Bukkit是古典的Minecraft服务器软件。  
-Spigot从Bukkit上再次修改而试图进一步优化。  
-在[这里](https://bukkit.org/)查看Bukkit自己的下载，  
-Spigot和Bukkit一样具有下载插件的提示。
-
-[返回分类目录](#learningPathCatalog)
-
-[返回总目录](#catalog)
 
 <a name="howToUse"></a>
 
@@ -113,54 +85,6 @@ Spigot和Bukkit一样具有下载插件的提示。
 
 `authme unregister 玩家名`  
 不再允许玩家登陆和在游戏内活动，和踢出具有同等效果。
-
-<a name="commonCommandAddUserPermission"></a>
-
-`lp user 玩家名 permission set 权限 true`  
-为玩家添加某项具体权限。
-
-<a name="commonCommandRemoveUserPermission"></a>
-
-`lp user 玩家名 permission unset 权限`  
-取消玩家某项具体权限。
-
-<a name="commonCommandResetUserGroup"></a>
-
-`lp user parent set default`  
-重设玩家权限组，临时权限组仍然需要手动去除。
-
-<a name="commonCommandAddUserGroup"></a>
-
-`lp user 玩家名 parent add 权限组名`  
-添加玩家到某个权限组。
-
-<a name="commonCommandRemoveUserGroup"></a>
-
-`lp user 玩家名 parent remove 权限组名`  
-不再使玩家属于某个权限组。
-
-<a name="commonCommandAddTempUserGroup"></a>
-
-`lp user 玩家名 parent addtemp 权限组名 时间`  
-临时添加玩家到某个权限组。  
-时间格式：  
-1秒 = 1s  
-1分 = 1m  
-1小时 = 1h  
-1天 = 1d
-
-<a name="commonCommandRemoveTempUserGroup"></a>
-
-`lp user 玩家名 parent removetemp 权限组名`  
-不再使玩家属于某个临时权限组。
-
-<a name="commonCommandMultiWorldPermission"></a>
-
-`multiverse.access.Dig`  
-`multiverse.access.DigNether`  
-`multiverse.access.DigTheEnd`  
-添加这些权限允许进入多世界的其中之一。  
-需要玩家提供资格证明后分别添加对应世界的权限而不是一下全加上。
 
 [返回总目录](#catalog)
 
@@ -209,6 +133,12 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 用[注册指令](#commonCommandRegister)进行注册。  
 
 ### 步骤3:
+修改玩家的群名片，用以下格式：
+
+```
+游戏名 QQ昵称
+```
+
 转发邮箱、游戏名、皮肤（如果有）、密码给群主，用以下格式：
 
 ```
@@ -226,13 +156,8 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 
 /l xxx
 
-登陆，不要告诉别人密码
-建议是用记事本保存然后复制粘贴着用，
-这是为了防止一旦服务器被黑客攻击拿到密码本，
-就能用来猜测其他网站的密码导致盗号
-
-登陆一次后3天内再次进游戏不需要重新登陆
-原因是中国大多数家庭宽带运营商约3天换一次IP
+建议是用群文件整合包的自动登陆mod
+或者记事本保存然后复制粘贴着用
 ```
 
 [返回总目录](#catalog)
@@ -244,8 +169,7 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 <a name="fAQCatalog"></a>
 
 ### 常见问题-目录
-1. [怎么改密码？](#changePassword)  
-1. [不能进去资源世界等多世界？](#multiWorld)
+1. [怎么改密码？](#changePassword)
 
 [返回总目录](#catalog)
 
@@ -255,55 +179,6 @@ QQ电脑版有个问题是，从群内发起私聊一开始不能发文件，
 说明书里写了。
 
 [返回当前分类目录](#fAQCatalog)
-
-### 不能进去资源世界等多世界？
-查看服务器说明书“车站”章节，  
-拥有一个车站和提供资格证明后管理员用[添加多世界权限](#commonCommandMultiWorldPermission)指令允许玩家进入。
-
-[返回总目录](#catalog)
-
-<a name="permission"></a>
-
-## 权限
-[权限](#permissionPermission)  
-[权限组](#permissionPermissionGroup)
-
-[返回总目录](#catalog)
-
-<a name="permissionPermission"></a>
-
-### 权限
-由于使用两个以上的权限组来实现临时权限，这些权限组之间的继承关系不会立刻刷新。  
-在修改权限后，记得使用`/pex reload`重新载入权限以便刷新继承关系。
-
-<a name="permissionPermissionGroup"></a>
-
-[返回分类目录](#permission)
-
-### 权限组
-每次新增或删除权限组时应注意，少数插件需要分别修改配置文件以便识别权限组。  
-完整的列表：
-
-- ZHorse\config.yml
-
-[返回分类目录](#permission)
-
-[返回总目录](#catalog)
-
-<a name="inventory"></a>
-
-## 背包
-恢复意外死亡的玩家背包，使用[Inventory Restore 2](https://www.spigotmc.org/resources/inventory-restore-remastered.22027/)。  
-调查玩家的背包以及末影箱，使用[OpenInv](https://dev.bukkit.org/projects/openinv)。  
-调查临时创造模式玩家是否作弊，使用[Core Protect](https://www.spigotmc.org/resources/coreprotect.8631/)。
-
-[返回总目录](#catalog)
-
-<a name="multiWorld">
-
-## 多世界
-当创建一个世界，随机传送插件总是会把玩家传送到一个固定位置。  
-到RandomTeleport\Worlds:下添加世界名和传送范围以便解决。
 
 [返回总目录](#catalog)
 
