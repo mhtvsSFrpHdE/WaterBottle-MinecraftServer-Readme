@@ -292,15 +292,18 @@
 
 `/warp 名称`  
 前往预先设置的地标，一些常用的：
-- `spawn` 出生点
-- `grid` 和出生点是同一个地方，或叫主城
+- `debug_sand` 某个已完工的刷沙机
+- `grid` 主城，和出生点是同一个地方
 - `lemon` 前往红石世界或资源世界
-- `lamp` 前往高难度世界
+- `sand` 刷沙机（收集），需要沙子到这里来拿
+- `spawn` 出生点
+- `store` 商店
+- `wamp` 前往高难度世界
 
 `传送门`  
 在world, lemon, dig世界中，  
 使用下界、末地传送门会分别去三个世界对应的下界和末地，返回时也一样。  
-lemon_amp高难度世界没有自己的下界和末地，在其中使用传送门不知道会去哪，  
+world_amp高难度世界没有自己的下界和末地，在其中使用传送门不知道会去哪，  
 应该也是不能通过传送门进入高难度世界。
 
 [返回当前分类目录](#infrastructureCatalog)
@@ -308,20 +311,17 @@ lemon_amp高难度世界没有自己的下界和末地，在其中使用传送�
 <a name="multiWorld"></a>
 
 ### 多世界
-在出生点附近放有前往其他世界的牌子。  
+使用`/warp grid`或`/warp lemon`传送到多世界牌子附近，  
+右键牌子进入对应的世界，或领地、床传送。  
 特点是第二行写绿色字`[mv]`然后第三行写要前往的世界名。  
-点击[这里](#multiWorldList)查看服务器上完整的世界列表。
 
 <a name="multiWorldBack"></a>
 
-要返回定居的世界，使用[/home或/res tp](#teleportHome)。
-
-[返回当前分类目录](#infrastructureCatalog)
+要返回定居的世界，可用[传送](#teleportHome)。
 
 <a name="multiWorldList"></a>
 
-### 多世界-目录
-这是服务器上世界完整的列表：
+服务器上的世界列表：
 
 [建筑](#multiWorldBuildWorld)  
 [红石](#multiWorldRedstoneWorld)  
@@ -333,7 +333,7 @@ lemon_amp高难度世界没有自己的下界和末地，在其中使用传送�
 <a name="multiWorldBuildWorld"></a>
 
 #### 建筑
-世界名：`world`  
+世界名：`lemon`（原`world`）  
 创建时间：`1.12.2`  
 服务器首次创建时分配的世界。新玩家的出生点在这里。  
 长期保留。  
@@ -344,11 +344,18 @@ lemon_amp高难度世界没有自己的下界和末地，在其中使用传送�
 <a name="multiWorldRedstoneWorld"></a>
 
 #### 红石
-世界名：`lemon`  
+世界名：`world`（原`lemon`）  
 创建时间：`1.21.1`  
 防爆插件关闭的世界，能运用更多原版红石特性但也更危险，不适宜居住。  
 长期保留。  
 有自己对应的下界和末地。
+
+`world`和`lemon`两个世界是反过来的。  
+原本建筑世界是`world`，多世界插件添加的红石世界是`lemon`，  
+但后来发现刷沙机只能往名叫`world_the_end`的世界刷沙，  
+因此进行了一次存档调换，现在红石世界是`world`，建筑世界是`lemon`。  
+出于习惯仍然可能将红石世界称作`lemon`，建筑世界称作`world`，  
+例如前往红石世界是使用指令`/warp lemon`，随后右键点击的却是写着`world`的牌子。
 
 [返回当前分类目录](#multiWorldList)
 
@@ -367,10 +374,10 @@ lemon_amp高难度世界没有自己的下界和末地，在其中使用传送�
 
 <a name="multiWorldAmpWorld"></a>
 #### 放大化（高难度）
-世界名：`lemon_amp`  
+世界名：`world_amp`  
 创建时间：`1.21.1`  
 实验玩法，死亡背包物品和经验会掉落，有防爆，目前不知道有什么用，可能自然景观多用来建筑。  
-没有放大化的下界和末地，使用传送门不知道会去哪，没试过，不建议。
+没有放大化的下界和末地，传送门进不去是正常现象。
 
 [返回当前分类目录](#multiWorldList)
 
