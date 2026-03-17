@@ -248,6 +248,24 @@
 
 [返回当前分类目录](#infrastructureCatalog)
 
+<a name="repair"></a>
+
+### **修复和改名（铁砧）**
+可以放心使用铁砧修理物品。
+
+铁砧上的物品将始终按“非仅重命名操作的次数1、累积惩罚1”来计算经验值价格，  
+预计能消除绝大多数“过于昂贵”问题。
+
+[返回当前分类目录](#infrastructureCatalog)
+
+<a name="enchantedGoldenApple"></a>
+
+### **附魔金苹果**
+已添加`1.3.2`版本时期的附魔金苹果配方，并且调整回当时的效果。  
+也可以在商店和村民NPC交易。
+
+[返回当前分类目录](#infrastructureCatalog)
+
 <a name="teleport"></a>
 
 ### **传送**
