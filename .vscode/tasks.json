@@ -12,7 +12,14 @@
         {
             "label": "Compile admin",
             "type": "shell",
-            "command": "markdown-it ChineseSimplified/管理员常用资料_MC水瓶.md -o ChineseSimplified/管理员常用资料_MC水瓶.html",
+            "command": "npx markdown-it ChineseSimplified/管理员常用资料_MC水瓶.md -o ChineseSimplified/管理员常用资料_MC水瓶.html",
+            "group": "build"
+        },
+        {
+            "label": "Install markdown compiler",
+            "type": "shell",
+            "command": "npm install markdown-it",
+            "group": "build"
             "group": "build"
         }
     ]
