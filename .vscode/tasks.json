@@ -6,7 +6,7 @@
         {
             "label": "Compile player",
             "type": "shell",
-            "command": "markdown-it ChineseSimplified/服务器说明书_MC水瓶.md -o ChineseSimplified/服务器说明书_MC水瓶.html",
+            "command": "npx markdown-it ChineseSimplified/服务器说明书_MC水瓶.md -o ChineseSimplified/服务器说明书_MC水瓶.html",
             "group": "build"
         },
         {
