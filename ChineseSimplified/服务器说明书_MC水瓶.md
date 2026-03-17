@@ -6,7 +6,7 @@
   </head>
   <body>
 
-# 服务器说明书_MC水瓶 2024/09/28 a
+# 服务器说明书_MC水瓶 2026/03/18 a
 
 ## 阅读方法
 点击链接查看对应章节，连续点击到具体描述后如果想回到之前阅读的地方，  
@@ -130,16 +130,19 @@
 <a name="infrastructureCatalog"></a>
 
 ### 基础设施-目录
-[箱子锁](#lWC)  
-[马锁](#zHorse)  
+[皮肤](#skin)  
+[修复和改名（铁砧）](#repair)  
 [商店和交易](#trade)  
 [传送](#teleport)  
 [多世界](#multiWorld)  
-[呼叫](#notify)  
-[皮肤](#skin)  
-[彩色牌子](#coloredSign)  
+[区块加载器](#chunkLoader)  
 [服务器状态](#serverStatus)  
-[区块加载器](#chunkLoader)
+[箱子锁](#lWC)  
+[马锁](#zHorse)  
+[附魔金苹果](#enchantedGoldenApple)  
+[彩色牌子](#coloredSign)  
+[呼叫](#notify)  
+[用户宏](#clientMacro)
 
 [返回总目录](#catalog)
 
